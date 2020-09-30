@@ -1,0 +1,4 @@
+# ignore host file
+hosts
+# ignore production bastion
+group_vars/gcp/prod.yml

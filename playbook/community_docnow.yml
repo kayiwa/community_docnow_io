@@ -1,0 +1,8 @@
+---
+- hosts: all
+  remote_user: pulsys
+  become: true
+  vars_files:
+    - ../group_vars/gcp/prod.yml
+  roles:
+    - role: ../roles/nginx

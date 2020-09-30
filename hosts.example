@@ -1,0 +1,2 @@
+[gcp_docnow_prod]
+gcp_community_docnow_prod ansible_host=1.2.3.4
