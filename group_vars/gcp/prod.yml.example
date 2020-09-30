@@ -1,5 +1,5 @@
 ---
-ansible_ssh_common_args: '-o ProxyCommand="ssh -W %h:%p -q pulsys@35.243.164.191"'
+ansible_ssh_common_args: '-o ProxyCommand="ssh -W %h:%p -q pulsys@5.3.4.91"'
 postgresql_port: 5432
 postgresql_listen_addresses: 127.0.0.1
 postgresql_unix_socket_directories: /var/run/postgresql
