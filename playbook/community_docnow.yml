@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: gcp_docnow_prod
   remote_user: pulsys
   become: true
   vars_files:

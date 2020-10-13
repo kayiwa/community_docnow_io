@@ -1,2 +1,9 @@
-[gcp_docnow_prod]
-gcp_community_docnow_prod ansible_host=1.2.3.4
+## Select one of the following (not both)
+# uncomment the next two lines and enter your IP address
+# [gcp_docnow_prod]
+# gcp_community_docnow_prod ansible_host=1.2.3.4
+
+# if not using a bastion host 
+# uncomment the next two lines and enter your IP address
+# [gcp_docnow_prod]
+# 1.2.3.4
